@@ -30,6 +30,8 @@ export const Input = styled.input`
   font-size: 16px;
   &[type="submit"] {
     cursor: pointer;
+    background-color: #1d9bf0;
+    color: #fff;
     &:hover {
       opacity: 0.8;
     }
@@ -46,4 +48,11 @@ export const Switcher = styled.span`
   a {
     color: #1d9bf0;
   }
+`;
+
+export const ForgotPassword = styled.span`
+  color: #1d9bf0;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  cursor: pointer;
 `;
